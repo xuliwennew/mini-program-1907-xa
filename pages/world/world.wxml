@@ -1,0 +1,19 @@
+<block wx:key="index" wx:for="{{list}}">
+  <view class="movie">
+   <image class="movie-img" src="{{item.images.large}}"></image>
+   <view class="movie-info">
+      <view class="movie-title">{{item.title}}</view>
+      <view>
+      观众评分: <text>{{item.rating.average}}分</text>
+      </view>
+      <view>
+        主演: 
+        <block wx:for="{{item.casts}}" wx:key="index">
+          <text>{{item.name}}  </text>
+        </block>
+      </view>
+      <view>年份: {{item.year}}</view>
+   </view>
+   <view class="movie-comment">评论</view>
+</view>
+</block>

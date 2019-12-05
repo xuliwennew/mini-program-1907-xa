@@ -1,0 +1,4 @@
+<!--components/hi/hi.wxml-->
+<text>components/hi/hi.wxml</text>
+<x-hello bindxx="getInfo"/>
+<x-world bindxx="getInfo"/>

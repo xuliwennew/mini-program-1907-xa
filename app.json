@@ -1,13 +1,68 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/test/test",
+    "pages/hello/hello",
+    "pages/login/login",
+    "pages/world/world",
+    "pages/photo/photo",
+    "pages/map/map",
+    "pages/my/my"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#ccc",
+    "navigationBarBackgroundColor": "#00f",
+    "navigationBarTitleText": "京西",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "pageOrientation": "portrait"
   },
-  "style": "v2"
+  "style": "v2",
+  "tabBar": {
+    "position": "bottom",
+    "color": "#ccc",
+    "selectedColor": "#cc0",
+    "borderStyle": "white",
+    "backgroundColor": "#f00",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "selectedIconPath": "/assets/tabs/jiaoshi.png",
+        "iconPath": "/assets/tabs/jiaoshi0.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "测试",
+        "selectedIconPath": "/assets/tabs/jiayuan.png",
+        "iconPath": "/assets/tabs/jiayuan0.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "测试",
+        "selectedIconPath": "/assets/tabs/jiayuan.png",
+        "iconPath": "/assets/tabs/jiayuan0.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "测试",
+        "selectedIconPath": "/assets/tabs/jiayuan.png",
+        "iconPath": "/assets/tabs/jiayuan0.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "测试",
+        "selectedIconPath": "/assets/tabs/jiayuan.png",
+        "iconPath": "/assets/tabs/jiayuan0.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "333"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
 }

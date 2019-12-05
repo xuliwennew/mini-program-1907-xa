@@ -1,0 +1,8 @@
+<view class="box"></view>
+<navigator open-type="switchTab" url="/pages/index/index">
+  <button>到首页</button>
+</navigator>
+
+<navigator open-type="reLaunch" url="/pages/login/login?id=111">
+  <button>login</button>
+</navigator>

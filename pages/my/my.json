@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "w-hi":"../../components/hi/hi"
+  }
+}

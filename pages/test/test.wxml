@@ -1,0 +1,26 @@
+<wxs module="m1">
+var msg = "hello world";
+
+module.exports.message = msg;
+</wxs>
+
+<wxs module="hello" src="../../wxs/hello.wxs"></wxs>
+
+<text>{{hello.a}}</text>
+<text wx:if="{{flag}}">{{title}}</text>
+
+<button ontap="toggle">toggle</button>
+
+<view wx:key="index" wx:for="{{cources}}">
+  <text id="{{index}}" data-i="{{index}}" data-y="{{item}}" ontap="show">{{index}}:{{item}}</text>
+</view>
+
+<view  wx:key="idx" wx:for-index="idx" wx:for-item="user" wx:for="{{users}}">
+    <text>{{user.name}}</text>
+    <text>兴趣爱好</text>
+    <view  wx:key="index"  wx:for="{{user.hobby}}">
+      <text>{{item}}</text>
+    </view>
+</view>
+
+

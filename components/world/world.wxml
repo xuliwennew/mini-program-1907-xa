@@ -1,0 +1,6 @@
+<!--components/world/world.wxml-->
+<text>components/world/world.wxml</text>
+<!--components/hello/hello.wxml-->
+<view>{{title}}</view>
+<view ontap="show">{{innerTitle}}</view>
+<button ontap="send">sentHi</button>

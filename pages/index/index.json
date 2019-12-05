@@ -1,3 +1,10 @@
 {
-  "usingComponents": {}
+  "usingComponents": {},
+  "backgroundTextStyle": "light",
+  "backgroundColor": "#ccc",
+  "navigationBarBackgroundColor": "#0f0",
+  "navigationBarTitleText": "京西2",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "pageOrientation": "portrait"
 }

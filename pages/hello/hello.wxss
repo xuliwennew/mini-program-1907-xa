@@ -1,0 +1,6 @@
+@import "../../assets/hello.wxss"
+.box {
+  width:750rpx;
+  height:300px;
+  background-color: red;
+}
