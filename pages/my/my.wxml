@@ -1,2 +1,13 @@
 <w-hi title="hello 1"/>
+
+<my-button loading type="primary" />
+<my-button loading type="primary" loading-type="spinner" />
+<my-button loading type="info" loading-text="加载中..." />
+<my-button type="primary" ontap="show">主要按钮</my-button>
+<van-action-sheet
+  show="{{ show }}"
+  actions="{{ actions }}"
+  bind:close="onClose"
+  bind:select="onSelect"
+/>
  

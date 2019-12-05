@@ -1,5 +1,7 @@
 {
   "usingComponents": {
-    "w-hi":"../../components/hi/hi"
+    "w-hi":"../../components/hi/hi",
+    "my-button":"../../components/vant/button/index",
+    "van-action-sheet": "../../components/vant/action-sheet/index"
   }
 }
